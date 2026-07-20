@@ -70,15 +70,22 @@ docker compose up --build -d
 ```bash
 docker tag <local image name> <docker repo image>
 
-# local image name : *assignment11-web:latest*
-# docker repo image name: *dbal7/is601_assignment11:latest*
+# local image name : assignment11-web:latest
+# docker repo image name: dbal7/is601_assignment11:latest
 ```
 
 ## Push image to docker
 ```bash
 docker push <docker repo image>
+```
 
 ## Shutdown and remove running image after completion
 ```bash
 docker compose -v
 ```
+
+# Issues
+
+### Github action test failed, assertion error
+
+keep repushing
